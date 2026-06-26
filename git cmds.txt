@@ -1,0 +1,15 @@
+git remote -v
+
+git init
+
+git remote add origin url
+
+git remote set-url origin url
+
+git add .
+
+git commit -m "msg"
+
+git branch -M main
+
+git push -u origin main
